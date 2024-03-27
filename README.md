@@ -27,10 +27,6 @@ The Vault contract provides secure storage for ERC20 tokens, implementing additi
 
 2. **Withdrawal Authorization:** The Vault contract implements withdrawal authorization mechanisms to ensure that only authorized addresses can withdraw tokens. This prevents unauthorized access to token holdings.
 
-3. **Multi-Signature Withdrawals:** For enhanced security, the Vault contract supports multi-signature withdrawals, requiring multiple signatures from authorized addresses to execute a withdrawal transaction. This adds an extra layer of protection against theft or misuse of tokens.
-
-4. **Emergency Freeze:** In the event of a security breach or other emergency situation, the Vault contract includes functionality to freeze token withdrawals temporarily. This helps prevent further loss or damage until the situation can be resolved.
-
 **Usage:**
 
 To use the ERC20 token and Vault contracts, users can interact with them directly using Ethereum-compatible wallets or through custom smart contract integrations. Developers can deploy instances of these contracts on the Ethereum blockchain and integrate them into decentralized applications (dApps) or other blockchain-based systems.
